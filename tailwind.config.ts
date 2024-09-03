@@ -7,16 +7,14 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-      fontFamily: {
-        sans: ["var(--font-geist-sans)"],
-        mono: ["var(--font-geist-mono)"],
+    container: {
+      center: true,
+      padding: "1.5rem",
+      screens: {
+        "2xl": "80ch",
       },
     },
+    extend: {},
   },
   plugins: [],
 };
