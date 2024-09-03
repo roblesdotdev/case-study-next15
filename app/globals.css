@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply bg-[#171717] text-[#dadada] min-h-screen overflow-x-hidden min-w-80 antialiased;
+    @apply min-h-screen min-w-80 overflow-x-hidden bg-[#171717] text-[#dadada] antialiased;
   }
 }
